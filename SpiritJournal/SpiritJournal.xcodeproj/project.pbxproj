@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220E5C722B8E34D0008A3B27 /* SpiritJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5C712B8E34D0008A3B27 /* SpiritJournalApp.swift */; };
+		220E5C742B8E34D0008A3B27 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5C732B8E34D0008A3B27 /* Persistence.swift */; };
+		220E5C772B8E34D0008A3B27 /* SpiritJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 220E5C752B8E34D0008A3B27 /* SpiritJournal.xcdatamodeld */; };
+		220E5C792B8E34D0008A3B27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5C782B8E34D0008A3B27 /* ContentView.swift */; };
+		220E5C7B2B8E34D1008A3B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220E5C7A2B8E34D1008A3B27 /* Assets.xcassets */; };
+		220E5C7F2B8E34D1008A3B27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220E5C7E2B8E34D1008A3B27 /* Preview Assets.xcassets */; };
+		220E5C892B8E34D1008A3B27 /* SpiritJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5C882B8E34D1008A3B27 /* SpiritJournalTests.swift */; };
+		220E5C932B8E34D1008A3B27 /* SpiritJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5C922B8E34D1008A3B27 /* SpiritJournalUITests.swift */; };
+		220E5C952B8E34D1008A3B27 /* SpiritJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5C942B8E34D1008A3B27 /* SpiritJournalUITestsLaunchTests.swift */; };
+		220E5CA22B920BCC008A3B27 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5CA12B920BCC008A3B27 /* HomeView.swift */; };
+		220E5CA42B92103D008A3B27 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5CA32B92103D008A3B27 /* RecordView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220E5C852B8E34D1008A3B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220E5C662B8E34D0008A3B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220E5C6D2B8E34D0008A3B27;
+			remoteInfo = SpiritJournal;
+		};
+		220E5C8F2B8E34D1008A3B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220E5C662B8E34D0008A3B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220E5C6D2B8E34D0008A3B27;
+			remoteInfo = SpiritJournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220E5C6E2B8E34D0008A3B27 /* SpiritJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220E5C712B8E34D0008A3B27 /* SpiritJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritJournalApp.swift; sourceTree = "<group>"; };
+		220E5C732B8E34D0008A3B27 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		220E5C762B8E34D0008A3B27 /* SpiritJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpiritJournal.xcdatamodel; sourceTree = "<group>"; };
+		220E5C782B8E34D0008A3B27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		220E5C7A2B8E34D1008A3B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		220E5C7C2B8E34D1008A3B27 /* SpiritJournal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpiritJournal.entitlements; sourceTree = "<group>"; };
+		220E5C7E2B8E34D1008A3B27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		220E5C842B8E34D1008A3B27 /* SpiritJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiritJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220E5C882B8E34D1008A3B27 /* SpiritJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritJournalTests.swift; sourceTree = "<group>"; };
+		220E5C8E2B8E34D1008A3B27 /* SpiritJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiritJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220E5C922B8E34D1008A3B27 /* SpiritJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritJournalUITests.swift; sourceTree = "<group>"; };
+		220E5C942B8E34D1008A3B27 /* SpiritJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		220E5CA12B920BCC008A3B27 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		220E5CA32B92103D008A3B27 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220E5C6B2B8E34D0008A3B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E5C812B8E34D1008A3B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E5C8B2B8E34D1008A3B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220E5C652B8E34D0008A3B27 = {
+			isa = PBXGroup;
+			children = (
+				220E5C702B8E34D0008A3B27 /* SpiritJournal */,
+				220E5C872B8E34D1008A3B27 /* SpiritJournalTests */,
+				220E5C912B8E34D1008A3B27 /* SpiritJournalUITests */,
+				220E5C6F2B8E34D0008A3B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220E5C6F2B8E34D0008A3B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220E5C6E2B8E34D0008A3B27 /* SpiritJournal.app */,
+				220E5C842B8E34D1008A3B27 /* SpiritJournalTests.xctest */,
+				220E5C8E2B8E34D1008A3B27 /* SpiritJournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220E5C702B8E34D0008A3B27 /* SpiritJournal */ = {
+			isa = PBXGroup;
+			children = (
+				220E5C712B8E34D0008A3B27 /* SpiritJournalApp.swift */,
+				220E5C732B8E34D0008A3B27 /* Persistence.swift */,
+				220E5C782B8E34D0008A3B27 /* ContentView.swift */,
+				220E5CA12B920BCC008A3B27 /* HomeView.swift */,
+				220E5CA32B92103D008A3B27 /* RecordView.swift */,
+				220E5C7A2B8E34D1008A3B27 /* Assets.xcassets */,
+				220E5C7C2B8E34D1008A3B27 /* SpiritJournal.entitlements */,
+				220E5C752B8E34D0008A3B27 /* SpiritJournal.xcdatamodeld */,
+				220E5C7D2B8E34D1008A3B27 /* Preview Content */,
+			);
+			path = SpiritJournal;
+			sourceTree = "<group>";
+		};
+		220E5C7D2B8E34D1008A3B27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				220E5C7E2B8E34D1008A3B27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		220E5C872B8E34D1008A3B27 /* SpiritJournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				220E5C882B8E34D1008A3B27 /* SpiritJournalTests.swift */,
+			);
+			path = SpiritJournalTests;
+			sourceTree = "<group>";
+		};
+		220E5C912B8E34D1008A3B27 /* SpiritJournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				220E5C922B8E34D1008A3B27 /* SpiritJournalUITests.swift */,
+				220E5C942B8E34D1008A3B27 /* SpiritJournalUITestsLaunchTests.swift */,
+			);
+			path = SpiritJournalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220E5C6D2B8E34D0008A3B27 /* SpiritJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220E5C982B8E34D1008A3B27 /* Build configuration list for PBXNativeTarget "SpiritJournal" */;
+			buildPhases = (
+				220E5C6A2B8E34D0008A3B27 /* Sources */,
+				220E5C6B2B8E34D0008A3B27 /* Frameworks */,
+				220E5C6C2B8E34D0008A3B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpiritJournal;
+			productName = SpiritJournal;
+			productReference = 220E5C6E2B8E34D0008A3B27 /* SpiritJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		220E5C832B8E34D1008A3B27 /* SpiritJournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220E5C9B2B8E34D1008A3B27 /* Build configuration list for PBXNativeTarget "SpiritJournalTests" */;
+			buildPhases = (
+				220E5C802B8E34D1008A3B27 /* Sources */,
+				220E5C812B8E34D1008A3B27 /* Frameworks */,
+				220E5C822B8E34D1008A3B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220E5C862B8E34D1008A3B27 /* PBXTargetDependency */,
+			);
+			name = SpiritJournalTests;
+			productName = SpiritJournalTests;
+			productReference = 220E5C842B8E34D1008A3B27 /* SpiritJournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		220E5C8D2B8E34D1008A3B27 /* SpiritJournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220E5C9E2B8E34D1008A3B27 /* Build configuration list for PBXNativeTarget "SpiritJournalUITests" */;
+			buildPhases = (
+				220E5C8A2B8E34D1008A3B27 /* Sources */,
+				220E5C8B2B8E34D1008A3B27 /* Frameworks */,
+				220E5C8C2B8E34D1008A3B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220E5C902B8E34D1008A3B27 /* PBXTargetDependency */,
+			);
+			name = SpiritJournalUITests;
+			productName = SpiritJournalUITests;
+			productReference = 220E5C8E2B8E34D1008A3B27 /* SpiritJournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220E5C662B8E34D0008A3B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					220E5C6D2B8E34D0008A3B27 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					220E5C832B8E34D1008A3B27 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 220E5C6D2B8E34D0008A3B27;
+					};
+					220E5C8D2B8E34D1008A3B27 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 220E5C6D2B8E34D0008A3B27;
+					};
+				};
+			};
+			buildConfigurationList = 220E5C692B8E34D0008A3B27 /* Build configuration list for PBXProject "SpiritJournal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220E5C652B8E34D0008A3B27;
+			productRefGroup = 220E5C6F2B8E34D0008A3B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220E5C6D2B8E34D0008A3B27 /* SpiritJournal */,
+				220E5C832B8E34D1008A3B27 /* SpiritJournalTests */,
+				220E5C8D2B8E34D1008A3B27 /* SpiritJournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220E5C6C2B8E34D0008A3B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220E5C7F2B8E34D1008A3B27 /* Preview Assets.xcassets in Resources */,
+				220E5C7B2B8E34D1008A3B27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E5C822B8E34D1008A3B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E5C8C2B8E34D1008A3B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220E5C6A2B8E34D0008A3B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220E5CA22B920BCC008A3B27 /* HomeView.swift in Sources */,
+				220E5CA42B92103D008A3B27 /* RecordView.swift in Sources */,
+				220E5C772B8E34D0008A3B27 /* SpiritJournal.xcdatamodeld in Sources */,
+				220E5C722B8E34D0008A3B27 /* SpiritJournalApp.swift in Sources */,
+				220E5C792B8E34D0008A3B27 /* ContentView.swift in Sources */,
+				220E5C742B8E34D0008A3B27 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E5C802B8E34D1008A3B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220E5C892B8E34D1008A3B27 /* SpiritJournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E5C8A2B8E34D1008A3B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220E5C932B8E34D1008A3B27 /* SpiritJournalUITests.swift in Sources */,
+				220E5C952B8E34D1008A3B27 /* SpiritJournalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220E5C862B8E34D1008A3B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220E5C6D2B8E34D0008A3B27 /* SpiritJournal */;
+			targetProxy = 220E5C852B8E34D1008A3B27 /* PBXContainerItemProxy */;
+		};
+		220E5C902B8E34D1008A3B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220E5C6D2B8E34D0008A3B27 /* SpiritJournal */;
+			targetProxy = 220E5C8F2B8E34D1008A3B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		220E5C962B8E34D1008A3B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		220E5C972B8E34D1008A3B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		220E5C992B8E34D1008A3B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpiritJournal/SpiritJournal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpiritJournal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eswasloc.SpiritJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220E5C9A2B8E34D1008A3B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpiritJournal/SpiritJournal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpiritJournal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eswasloc.SpiritJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		220E5C9C2B8E34D1008A3B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eswasloc.SpiritJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiritJournal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpiritJournal";
+			};
+			name = Debug;
+		};
+		220E5C9D2B8E34D1008A3B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eswasloc.SpiritJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiritJournal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpiritJournal";
+			};
+			name = Release;
+		};
+		220E5C9F2B8E34D1008A3B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eswasloc.SpiritJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpiritJournal;
+			};
+			name = Debug;
+		};
+		220E5CA02B8E34D1008A3B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eswasloc.SpiritJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpiritJournal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220E5C692B8E34D0008A3B27 /* Build configuration list for PBXProject "SpiritJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220E5C962B8E34D1008A3B27 /* Debug */,
+				220E5C972B8E34D1008A3B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220E5C982B8E34D1008A3B27 /* Build configuration list for PBXNativeTarget "SpiritJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220E5C992B8E34D1008A3B27 /* Debug */,
+				220E5C9A2B8E34D1008A3B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220E5C9B2B8E34D1008A3B27 /* Build configuration list for PBXNativeTarget "SpiritJournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220E5C9C2B8E34D1008A3B27 /* Debug */,
+				220E5C9D2B8E34D1008A3B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220E5C9E2B8E34D1008A3B27 /* Build configuration list for PBXNativeTarget "SpiritJournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220E5C9F2B8E34D1008A3B27 /* Debug */,
+				220E5CA02B8E34D1008A3B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		220E5C752B8E34D0008A3B27 /* SpiritJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				220E5C762B8E34D0008A3B27 /* SpiritJournal.xcdatamodel */,
+			);
+			currentVersion = 220E5C762B8E34D0008A3B27 /* SpiritJournal.xcdatamodel */;
+			path = SpiritJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 220E5C662B8E34D0008A3B27 /* Project object */;
+}
