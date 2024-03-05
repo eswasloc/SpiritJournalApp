@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct RecordView: View {
+    @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var spiritList: SpiritList
+    
     @State private var spiritName: String = ""
     @State private var spiritType: String = ""
     
@@ -40,13 +43,20 @@ struct RecordView: View {
                     .stroke(Color.gray, lineWidth: 1)
                 )
                 .padding(.horizontal, 0)
+            
         }
         .padding()
+        .navigationBarTitle("술 정보 입력", displayMode: .inline)
+        .navigationBarItems(trailing: Button("저장") {
+            let newSpirit = Spirit(name: spiritName, type: spiritType)
+            spiritList.spirits.append(newSpirit)
+            presentationMode.wrappedValue.dismiss()
+        })
     }
 }
 
 struct RecordView_Previews: PreviewProvider {
     static var previews: some View {
-        RecordView()
+        RecordView().environmentObject(SpiritList())
     }
 }

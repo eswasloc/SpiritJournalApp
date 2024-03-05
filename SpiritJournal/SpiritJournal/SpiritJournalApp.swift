@@ -15,6 +15,7 @@ struct SpiritJournalApp: App {
         WindowGroup {
             HomeView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(SpiritList()) //SpiritList 인스턴트 환경 객체로추가
         }
     }
 }

@@ -18,6 +18,8 @@
 		220E5C952B8E34D1008A3B27 /* SpiritJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5C942B8E34D1008A3B27 /* SpiritJournalUITestsLaunchTests.swift */; };
 		220E5CA22B920BCC008A3B27 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5CA12B920BCC008A3B27 /* HomeView.swift */; };
 		220E5CA42B92103D008A3B27 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5CA32B92103D008A3B27 /* RecordView.swift */; };
+		22C1BD072B95F38E0050E8ED /* Spirit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1BD062B95F38E0050E8ED /* Spirit.swift */; };
+		22C1BD092B95F5B10050E8ED /* SpiritList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1BD082B95F5B10050E8ED /* SpiritList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		220E5C942B8E34D1008A3B27 /* SpiritJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		220E5CA12B920BCC008A3B27 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		220E5CA32B92103D008A3B27 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		22C1BD062B95F38E0050E8ED /* Spirit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirit.swift; sourceTree = "<group>"; };
+		22C1BD082B95F5B10050E8ED /* SpiritList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				220E5C782B8E34D0008A3B27 /* ContentView.swift */,
 				220E5CA12B920BCC008A3B27 /* HomeView.swift */,
 				220E5CA32B92103D008A3B27 /* RecordView.swift */,
+				22C1BD062B95F38E0050E8ED /* Spirit.swift */,
+				22C1BD082B95F5B10050E8ED /* SpiritList.swift */,
 				220E5C7A2B8E34D1008A3B27 /* Assets.xcassets */,
 				220E5C7C2B8E34D1008A3B27 /* SpiritJournal.entitlements */,
 				220E5C752B8E34D0008A3B27 /* SpiritJournal.xcdatamodeld */,
@@ -273,9 +279,11 @@
 			files = (
 				220E5CA22B920BCC008A3B27 /* HomeView.swift in Sources */,
 				220E5CA42B92103D008A3B27 /* RecordView.swift in Sources */,
+				22C1BD092B95F5B10050E8ED /* SpiritList.swift in Sources */,
 				220E5C772B8E34D0008A3B27 /* SpiritJournal.xcdatamodeld in Sources */,
 				220E5C722B8E34D0008A3B27 /* SpiritJournalApp.swift in Sources */,
 				220E5C792B8E34D0008A3B27 /* ContentView.swift in Sources */,
+				22C1BD072B95F38E0050E8ED /* Spirit.swift in Sources */,
 				220E5C742B8E34D0008A3B27 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
